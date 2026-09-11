@@ -1,9 +1,9 @@
-#!/bin/bash
+!/bin/bash
 
 # ==========================================
 # Managing Firewall Services using firewalld
 #
-# Student Name:Jothika
+# Student Name:jothika
 # Roll Number:1U24IT047
 # ==========================================
 
@@ -22,9 +22,10 @@ firewall-cmd --add-service=https
 
 
 
+
+
 # Display enabled services
 firewall-cmd --list-services
-
 
 
 # Remove HTTP service
@@ -32,11 +33,11 @@ firewall-cmd --remove-service=http
 
 
 
+
 # Allow SSH permanently
-firewall-cmd --permanent --add-service=ssh
+firewall-cmd --add-service=ssh --permanent
 
 
 
 # Reload firewall configuration
 firewall-cmd --reload
-
