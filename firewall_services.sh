@@ -3,8 +3,8 @@
 # ==========================================
 # Managing Firewall Services using firewalld
 #
-# Student Name:1U24IT047
-# Roll Number:Jothika
+# Student Name:Jothika
+# Roll Number:1U24IT047
 # ==========================================
 
 
